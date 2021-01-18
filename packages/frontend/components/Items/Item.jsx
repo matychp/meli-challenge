@@ -53,7 +53,7 @@ const Image = styled.img`
   max-width: 180px;
   align-self: center;
   border-radius: 4px;
-  object-fit: scale-down;
+  object-fit: contain;
 `;
 
 const MainContainer = styled.div`
