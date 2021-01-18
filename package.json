@@ -1,0 +1,15 @@
+{
+  "name": "@matychp/meli-challenge",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "dev": "lerna run dev --stream",
+    "start": "lerna run start",
+    "build": "lerna run build"
+  },
+  "workspaces": [
+     "packages/*"
+  ]
+}
